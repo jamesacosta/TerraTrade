@@ -1,14 +1,4 @@
-document.querySelectorAll('.service').forEach(function(div) {
 
-    div.addEventListener('mouseover', function()  {
-            this.style.backgroundColor = '#8fbc8f'; 
-            this.style.color = 'black';
-        });
-    div.addEventListener('mouseleave', function() {
-            this.style.backgroundColor = '#ffffff00'; 
-            this.style.color = 'white';
-        });
-   });
 
 document.addEventListener('DOMContentLoaded', function() {
     var dropdownBtn = document.querySelector('.dropdown-btn');
