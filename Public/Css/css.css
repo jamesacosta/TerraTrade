@@ -1,0 +1,224 @@
+.container i{
+    font-size: 250%;
+}
+.sub-container{
+    text-align: center;
+    padding: 1%;
+}
+.sub-container h1{
+    text-align: center;
+    font-size: 200%;
+}
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+
+/* Header  */
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 100px 0;
+    position: relative;
+}
+
+.logo {
+    float: left;
+}
+
+.logo img {
+    max-height: 40px;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav a {
+    color: #fff;
+}
+
+/* Hero Section Styling */
+.hero {
+    background-color: #f5f5f5;
+    padding: 2% ;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+
+
+/* Services */
+.services {
+    padding: 1%;
+}
+
+.services-grid {
+    background-color: #2f4f4f;
+    padding: 5%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.service{
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.service img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+/* SEO */
+.seo-analysis {
+    background-color: #f5f5f5;
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.seo-form {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-right: 30px;
+}
+
+.seo-image {
+    text-align: center;
+}
+
+.seo-image img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+/* Latest News Section Styling */
+.latest-news {
+    padding: 50px 0;
+}
+
+.news-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.news-item {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.news-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.news-item h3 {
+    padding: 15px;
+}
+
+.news-item p {
+    padding: 15px;
+}
+
+.footer {
+    background-color: #333333; /* Color de fondo para el footer */
+    color: #fff;
+    padding-top: 20px; /* Añade espacio en la parte superior */
+    padding-bottom: 20px; /* Añade espacio en la parte inferior */
+}
+
+.footer-links,
+.footer-social,
+.footer-copyright {
+    text-align: center;
+    margin-bottom: 20px; /* Añade espacio entre los elementos del footer */
+}
+
+.footer-links ul,
+.footer-social ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-links li,
+.footer-social li {
+    display: inline-block;
+    margin: 0 20px; /* Aumenta el margen horizontal entre los elementos */
+}
+
+.footer-links a,
+.footer-social a {
+    color: #fff;
+}
+
+.footer-social svg {
+    width: 24px; /* Ancho deseado para los iconos */
+    height: 24px; /* Alto deseado para los iconos */
+}
+

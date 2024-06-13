@@ -1,0 +1,35 @@
+.services .container .service-button{
+    text-align:  center;
+    padding: 2%;
+}
+
+.dropdown-btn {
+    display:none; /* Oculto por defecto, visible en móviles */
+    background-color: #2f4f4f;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+
+    text-align: center;
+    font-size: 18px;
+    border-radius: 10%;
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+    .dropdown-btn {
+        display:inline; /* Mostrar el botón en pantallas pequeñas */
+    }
+    .services-grid {
+        display: none; /* Ocultar el grid de servicios por defecto en móviles */
+    }
+    .dropdown-content {
+        display: none; /* Ocultar el contenido del dropdown por defecto en móviles */
+    }
+    .dropdown-content.show {
+        display: block; /* Mostrar el contenido del dropdown cuando sea necesario */
+    }
+}
