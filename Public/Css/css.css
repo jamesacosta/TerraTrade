@@ -36,21 +36,21 @@ p {
 
 a {
     text-decoration: none;
-    color: #007bff;
+    color: #00ff15;
 }
 
 a:hover {
     text-decoration: underline;
 }
 
-
-
 /* Header  */
 header {
     background-color: #007bff;
     color: #fff;
-    padding: 100px 0;
-    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 15vh;
 }
 
 .logo {
@@ -58,7 +58,8 @@ header {
 }
 
 .logo img {
-    max-height: 40px;
+    margin-top: 5px;
+    width: 10rem;
 }
 
 nav {
@@ -74,6 +75,10 @@ nav ul {
 nav li {
     display: inline-block;
     margin-left: 20px;
+}
+
+nav li:first-child {
+    margin-left: 0;
 }
 
 nav a {
@@ -146,7 +151,6 @@ nav a {
     padding: 30px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    margin-right: 30px;
 }
 
 .seo-image {
@@ -161,7 +165,7 @@ nav a {
 
 /* Latest News Section Styling */
 .latest-news {
-    padding: 50px 0;
+    padding: 0 0 50px 0;
 }
 
 .news-grid {
@@ -175,15 +179,15 @@ nav a {
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     overflow: hidden;
-}
-
-.news-item img {
-    max-width: 100%;
-    height: auto;
-}
-
-.news-item h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     padding: 15px;
+}
+
+.news-item i{
+    margin-top: 10px;
 }
 
 .news-item p {
