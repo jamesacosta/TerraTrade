@@ -45,7 +45,7 @@ a:hover {
 
 /* Header  */
 header {
-    background-color: #007bff;
+    background-color: #2F4F4F;
     color: #fff;
     display: flex;
     align-items: center;
@@ -110,7 +110,7 @@ nav a {
 }
 
 .services-grid {
-    background-color: #2f4f4f;
+    background-color: #2F4F4F;
     padding: 5%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -195,7 +195,7 @@ nav a {
 }
 
 .footer {
-    background-color: #333333; /* Color de fondo para el footer */
+    background-color: #2f4f4f; /* Color de fondo para el footer */
     color: #fff;
     padding-top: 20px; /* Añade espacio en la parte superior */
     padding-bottom: 20px; /* Añade espacio en la parte inferior */
